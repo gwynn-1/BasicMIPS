@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="C&#xe0;i &#x111;&#x1eb7;t"/>
+    <Property name="bounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
+      <Rectangle value="[500, 250, 0, 0]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                      <Component id="btnOK" min="-2" pref="73" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="btnCancel" min="-2" pref="73" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnOK" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnCancel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+            <EmptyBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblColorCrit" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblColorIns" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblColorUni" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblDoDay" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblAntiAliasing" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblRendering" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="cbbColorUni" max="32767" attributes="0"/>
+                      <Component id="cbbColorIns" max="32767" attributes="0"/>
+                      <Component id="cbbColorCrit" alignment="0" max="32767" attributes="0"/>
+                      <Component id="rdoAntiAliasing" min="-2" max="-2" attributes="0"/>
+                      <Component id="spDoDay" alignment="0" min="-2" pref="58" max="-2" attributes="0"/>
+                      <Component id="cbbRendering" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblColorCrit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbbColorCrit" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblColorIns" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbbColorIns" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblColorUni" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbbColorUni" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblDoDay" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="spDoDay" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblAntiAliasing" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="rdoAntiAliasing" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblRendering" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbbRendering" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblColorCrit">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="M&#xe0;u Critical Line"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblColorIns">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="M&#xe0;u Instruction Line"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblColorUni">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="M&#xe0;u Unimportant Line"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbbColorCrit">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="14">
+                <StringItem index="0" value="Default"/>
+                <StringItem index="1" value="&#x110;en"/>
+                <StringItem index="2" value="Xanh bi&#x1ec3;n &#x111;&#x1ead;m"/>
+                <StringItem index="3" value="Xanh da tr&#x1edd;i"/>
+                <StringItem index="4" value="Xanh l&#xe1;"/>
+                <StringItem index="5" value="X&#xe1;m"/>
+                <StringItem index="6" value="X&#xe1;m nh&#x1ea1;t"/>
+                <StringItem index="7" value="X&#xe1;m &#x111;&#x1ead;m"/>
+                <StringItem index="8" value="&#x110;&#x1ecf;"/>
+                <StringItem index="9" value="Cam"/>
+                <StringItem index="10" value="H&#x1ed3;ng &#x111;&#x1ead;m"/>
+                <StringItem index="11" value="H&#x1ed3;ng"/>
+                <StringItem index="12" value="Tr&#x1eaf;ng"/>
+                <StringItem index="13" value="V&#xe0;ng"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbbColorIns">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="14">
+                <StringItem index="0" value="Default"/>
+                <StringItem index="1" value="&#x110;en"/>
+                <StringItem index="2" value="Xanh bi&#x1ec3;n &#x111;&#x1ead;m"/>
+                <StringItem index="3" value="Xanh da tr&#x1edd;i"/>
+                <StringItem index="4" value="Xanh l&#xe1;"/>
+                <StringItem index="5" value="X&#xe1;m"/>
+                <StringItem index="6" value="X&#xe1;m nh&#x1ea1;t"/>
+                <StringItem index="7" value="X&#xe1;m &#x111;&#x1ead;m"/>
+                <StringItem index="8" value="&#x110;&#x1ecf;"/>
+                <StringItem index="9" value="Cam"/>
+                <StringItem index="10" value="H&#x1ed3;ng &#x111;&#x1ead;m"/>
+                <StringItem index="11" value="H&#x1ed3;ng"/>
+                <StringItem index="12" value="Tr&#x1eaf;ng"/>
+                <StringItem index="13" value="V&#xe0;ng"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbbColorUni">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="14">
+                <StringItem index="0" value="Default"/>
+                <StringItem index="1" value="&#x110;en"/>
+                <StringItem index="2" value="Xanh bi&#x1ec3;n &#x111;&#x1ead;m"/>
+                <StringItem index="3" value="Xanh da tr&#x1edd;i"/>
+                <StringItem index="4" value="Xanh l&#xe1;"/>
+                <StringItem index="5" value="X&#xe1;m"/>
+                <StringItem index="6" value="X&#xe1;m nh&#x1ea1;t"/>
+                <StringItem index="7" value="X&#xe1;m &#x111;&#x1ead;m"/>
+                <StringItem index="8" value="&#x110;&#x1ecf;"/>
+                <StringItem index="9" value="Cam"/>
+                <StringItem index="10" value="H&#x1ed3;ng &#x111;&#x1ead;m"/>
+                <StringItem index="11" value="H&#x1ed3;ng"/>
+                <StringItem index="12" value="Tr&#x1eaf;ng"/>
+                <StringItem index="13" value="V&#xe0;ng"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDoDay">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x110;&#x1ed9; d&#xe0;y c&#x1ee7;a Line"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="spDoDay">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="SpinnerModel spModel = new SpinnerNumberModel(3.5d,1d,10d,0.5d);&#xa;spDoDay.setModel(spModel);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblRendering">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rendering"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAntiAliasing">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Anti-Aliasing"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rdoAntiAliasing">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="On"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="rdoAntiAliasing.setSelected(true);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbbRendering">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Default"/>
+                <StringItem index="1" value="Quality"/>
+                <StringItem index="2" value="Speed"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="cbbRendering.setSelectedIndex(2);"/>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnOK">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnOKActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCancel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCancelActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
